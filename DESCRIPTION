@@ -1,0 +1,18 @@
+Package: helperFun
+Type: Package
+Title: Helper Functions for Routine Tasks
+Version: 0.1.0
+Authors@R: person("Chris", "Rowland", 
+    email = "your.email@example.com", 
+    role = c("aut", "cre"),
+    comment = "Update with your actual email address")
+Description: A collection of bespoke functions that are routinely used across
+    various projects. These helper functions streamline common tasks and 
+    workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
