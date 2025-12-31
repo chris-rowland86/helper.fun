@@ -2,8 +2,10 @@ Package: helperFun
 Type: Package
 Title: Helper Functions for Routine Tasks
 Version: 0.1.0
-Authors@R: person("Chris", "Rowland", email = "chris.rowland86@example.com", 
-    role = c("aut", "cre"))
+Authors@R: person("Chris", "Rowland", 
+    email = "your.email@example.com", 
+    role = c("aut", "cre"),
+    comment = "Update with your actual email address")
 Description: A collection of bespoke functions that are routinely used across
     various projects. These helper functions streamline common tasks and 
     workflows.
