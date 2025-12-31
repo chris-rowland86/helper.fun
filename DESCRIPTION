@@ -1,0 +1,40 @@
+Package: helper-fun
+Title: Workflow Helpers, Color Palettes, and Themes
+Version: 0.4.0
+Authors@R: 
+    person("Chris", "Rowland", email = "christopher.r.rowland@gmail.com", role = c("aut", "cre"),
+           comment = "Director, Clinical Data Science")
+Description: Provides corporate color palettes, ggplot2 themes,
+    and workflow helper functions for consistent branding across clinical trial 
+    visualizations. Includes functions for generating color ramps, discrete and 
+    continuous color scales, fill scales using the official TG color scheme,
+    custom ggplot2 themes, PowerPoint export utilities for editable graphics,
+    flextable formatting helpers for summary tables, data import/export 
+    utilities for Excel, CSV, SAS, XPT, and Microsoft Access files, and
+    date manipulation helpers for partial date imputation and time conversions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    data.table,
+    dplyr,
+    flextable,
+    ggplot2,
+    grDevices,
+    haven,
+    here,
+    janitor,
+    lubridate,
+    officer,
+    openxlsx2,
+    purrr,
+    RODBC,
+    rvg,
+    stringr,
+    writexl
+Suggests:
+    gtsummary,
+    scales,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
